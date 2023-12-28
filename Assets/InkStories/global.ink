@@ -1,0 +1,1 @@
+VAR funcaoAtual = ->NPC.primeiraFalaInicial

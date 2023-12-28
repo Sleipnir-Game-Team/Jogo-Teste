@@ -34,6 +34,7 @@ public class Movement : MonoBehaviour
         }
 
         if(Input.GetAxisRaw("Jump") == 1 && jumps < maxJumps){
+            SoundManager.GetInstance().Play("Pulo");
             jumping = true;
             jumps += 1;
         }
